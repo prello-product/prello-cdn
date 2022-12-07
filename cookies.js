@@ -20,3 +20,7 @@ function readCookie(name) {
 function eraseCookie(name) {
   createCookie(name, "", -1);
 }
+
+function test() {
+  console.log("test");
+}
